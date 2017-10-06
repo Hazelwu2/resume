@@ -1,0 +1,147 @@
+@media screen and (min-width: 1024px) {
+  .menu-button, .menu-button-checkbox {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    width: auto;
+  }
+  .menu-button {
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    background: transparent;
+    border: 0;
+  }
+  .menu {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    width: 170px;
+    height: 100%;
+    background: #2f2f2f;
+    right: 9px;
+    top: 50px;
+    padding: 40px 24px 0;
+  }
+
+  .menu a {
+    color: #7e7e7e;
+  }
+
+  .menu-button-checkbox {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    width: 55px;
+    height: 40px;
+    opacity: 0;
+  }
+
+  .menu-button-checkbox:checked ~ .menu {
+    display: block;
+  }
+  
+  #home {
+    min-height: 400px;
+  } 
+  .wrap-hello-content {
+    top: 90px;
+  }
+  
+  .hello-content {
+    min-width: 250px;
+    padding: 25px;
+  }
+
+  .hello-content p {
+    font-size: 13px;
+  }
+  .w-content {
+    max-width: 100%;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  #about {
+    margin-bottom: 140px;
+  }
+  #about > div {
+    width: 100%;
+    height: auto;
+  }
+
+  .bg-about {
+    min-height: 335px;
+  }
+
+  .grey-bg {
+    padding: 25px 0;
+  }
+  
+  .white-bg {
+    padding: 25px 0;
+  }
+  .content-detail {
+    margin-top: 30px;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .content-right {
+    padding: 0;
+  }
+
+  .portfolio-image li {
+    min-height: 220px;
+    margin-bottom: 30px;
+  }
+
+  .text-detail {
+    font-size: 13px;
+  }
+
+  .grid-item .title {
+    font-size: 14px;
+  }
+
+  .content-blog {
+    font-size: 12px;
+  }
+
+  .skillst {
+    margin: 30px auto;
+    width: 80%;
+  }
+
+  #contact {
+    padding: 0;
+  }
+
+  #contact .group, #contact input[type=submit] {
+    width: 80%;
+    margin: auto;
+  }
+  #contact input[type=submit] {
+    margin-top: 50px;
+  }
+  label {
+    margin-top: 10px;
+  }
+
+  textarea {
+    bottom: 1px solid;
+  }
+
+  form {
+    margin-bottom: 50px;
+  }
+  .col-sm {
+  width: 100%;
+  }
+
+}

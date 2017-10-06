@@ -154,6 +154,8 @@ strong {
   margin-left: -15px;
   margin-right: -15px;
 }
+
+
 .col-3, .col-4, .col-6, .col-9, .col-12 {
   display: inline-block;
   position: relative;
@@ -179,6 +181,7 @@ strong {
 .col-12 {
   width: 100%;
 }
+
 
 .content-right {
   margin-top: 20px;

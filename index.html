@@ -3,15 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Hazel Wu Resume 履歷表</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
   <header>
     <div class="container">
       <div id="nav">
-        <div class="menu">
+        <button class="menu-button">
+           三
+        </button>
+        <input type="checkbox" class="menu-button-checkbox">
+        <ul class="menu">
           <li><a href="#home">我是Hazel</a></li>
           <li><a href="#about">關於</a></li>
           <li><a href="#work">作品集</a></li>
@@ -19,8 +25,9 @@
           <li><a href="#blog">文章</a></li>
           <li><a href="#skills">技能欄</a></li>
           <li><a href="#contact">聯絡</a></li>
-        </div>
-      </div>
+        </ul>
+
+              </div>
     </div>
   </header>
 
@@ -67,9 +74,14 @@
                         <td>1994/2/26</td>
                       </tr>
                       <tr>
+                        <td class="title">學歷</td>
+                        <td class="break">：</td>
+                        <td>致理科技大學 應用英語系學士</td>
+                      </tr>
+                      <tr>
                         <td class="title">電話</td>
                         <td class="break">：</td>
-                        <td>0933-575-374</td>
+                        <td>0933-5xx-374</td>
                       </tr>
                       <tr>
                         <td class="title">Email</td>
@@ -92,7 +104,7 @@
       <section id="work" class="grey-bg">
         <div class="container">
           <row>
-            <div class="col-3 pull-left">
+            <div class="col-3 pull-left col-sm">
               <h3 class="title">
                 <span>作品集</span>
               </h3>
@@ -100,9 +112,9 @@
                 這是歷年來的作品集
               </p>
             </div>
-            <div class="col-9 content-right pull-left">
+            <div class="col-9 content-right pull-left col-sm">
               <ul class="portfolio-image clearfix">
-                <li class="col-6">
+                <li class="col-6 col-sm">
                   <a href="imgs/w1.png">
                     <img src="imgs/w1.png" alt="portfolio">
                     <div class="decription-wrap">
@@ -112,7 +124,7 @@
                     </div>
                   </a>
                 </li>
-                <li class="col-6">
+                <li class="col-6 col-sm">
                   <a href="imgs/w2.png">
                     <img src="imgs/w2.png" alt="portfolio">
                     <div class="decription-wrap">
@@ -122,7 +134,7 @@
                     </div>
                   </a>
                 </li>
-                <li class="col-6">
+                <li class="col-6 col-sm">
                   <a href="imgs/w3.png">
                     <img src="imgs/w3.png" alt="portfolio">
                     <div class="decription-wrap">
@@ -132,7 +144,7 @@
                     </div>
                   </a>
                 </li>
-                <li class="col-6">
+                <li class="col-6 col-sm">
                   <a href="imgs/w4.png">
                     <img src="imgs/w4.png" alt="portfolio">
                     <div class="decription-wrap">
@@ -151,7 +163,7 @@
       <section id="employment" class="white-bg">
         <div class="container">
           <div class="row">
-            <div class="col-3 pull-left">
+            <div class="col-3 pull-left col-sm">
               <h3 class="title">
                 <span>經歷</span>
               </h3>
@@ -159,10 +171,10 @@
                 這是我的工作經歷
               </p>
             </div>
-            <div class="col-9 content-right pull-left">
+            <div class="col-9 content-right pull-left col-sm">
               <div class="row">
                 <ul class="listing-item">
-                  <li class="col-6 pull-left">
+                  <li class="col-6 pull-left col-sm">
                     <div class="wrap-card">
                       <div class="card">
                         <h2 class="year">2016-2017</h2>
@@ -175,7 +187,7 @@
                       </div>
                     </div>
                   </li>
-                  <li class="col-6 pull-left">
+                  <li class="col-6 pull-left col-sm">
                     <div class="wrap-card">
                       <div class="card">
                         <h2 class="year">2009-2016</h2>
@@ -222,7 +234,7 @@
               </div>
               
               <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-sm">
                   <div class="grid-item">
                     <div class="wrap-article">
                       <img src="imgs/hazel.jpg" alt="author" class="img-circle">
@@ -240,7 +252,7 @@
                     </div>
                   </div>
                 </div>
-                 <div class="col-4">
+                 <div class="col-4 col-sm">
                    <div class="grid-item">
                      <div class="wrap-article">
                        <img src="imgs/hazel.jpg" alt="author" class="img-circle">
@@ -258,7 +270,7 @@
                      </div>
                    </div>
                  </div>
-                 <div class="col-4">
+                 <div class="col-4 col-sm">
                    <div class="grid-item">
                      <div class="wrap-article">
                        <img src="imgs/hazel.jpg" class="img-circle text-center">
@@ -285,7 +297,7 @@
       <section id="skills" class="white-bg">
         <div class="container">
           <div class="row">
-            <div class="col-3 pull-left">
+            <div class="col-3 pull-left col-sm">
               <h3 class="title">
                 <span>技能欄</span>
               </h3>
@@ -293,7 +305,7 @@
                 這是我目前學習到現在對自己評估的技能值，提供參考。
               </p>
             </div>
-            <div class="col-9 pull-left content-right">
+            <div class="col-9 pull-left content-right col-sm">
               <div class="skillst">
                 <div class="skillbar">
                   <div class="title head-sm">
@@ -361,7 +373,7 @@
       <section id="contact" class="breg-bg">
         <div class="container">
           <div class="row">
-            <div class="col-3">
+            <div class="col-3 col-sm">
               <h3 class="title">
                 <span>聯繫我吧</span>
               </h3>
@@ -369,7 +381,7 @@
                 不妨可以見個面喝杯咖啡聊聊，可以更細膩了解彼此。
               </p>
             </div>
-            <div class="col-9 content-right">
+            <div class="col-9 content-right col-sm">
               <form>
                 <div class="group">
                   <label for="name">姓名</label>
